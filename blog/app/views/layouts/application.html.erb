@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Engadget</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link rel="icon" href="https://s3.amazonaws.com/com.cartodb.users-assets.production/production/engadget/assets/201507151924173RoXHnu1.jpg">
+</head>
+<body>
+
+<nav class="navbar navbar-static-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        
+          <div class="navbar-brand">
+            <a href="/"><img src="http://static1.squarespace.com/static/55d36031e4b0a051fa5b276e/566a9538a976af216b7bdbd7/566a9d4f1c121069b54a6f63/1449827833284/engadget-new.png" width='150px' height='40px'></a>
+          </div>
+       
+          <div class="navbar-brand">
+
+          </div>
+      </div>
+  </nav>
+
+
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        
+          <div class="navbar-brand">
+          
+          </div>
+       
+          <div class="navbar-brand">
+
+          </div>
+      </div>
+  </nav>
+
+<%= yield %>
+
+</body>
+</html>
